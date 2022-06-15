@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.html,
+body {
+  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.extra-bold-big {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-one {
+  flex: 2;
+  margin-right: 40px;
+}
+
+.section-two {
+  flex: 1;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  color: #333;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.developer-tag {
+  font-size: 1.5em;
+  margin: 2px;
+}
+
+.time-line {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.title-tag {
+  flex: 1;
+  align-items: end;
+  justify-content: start;
+  display: flex;
+  margin: 10px 10px 5px 0px;
+}
+
+.title-tag>* {
+  padding: 2px;
+}
+
+.content-section {
+  margin-top: 80px;
+}
+
+.gap {
+  height: 50px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 10;
+}
+
+.main {
+  padding: 20px;
+}
+
+.bold-red-mid {
+  font-weight: 600;
+  color: #ff6e83;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.bold-red-high {
+  font-weight: 600;
+  color: #ff6e83;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.bold-black-mid {
+  font-weight: 500;
+  color: #3d3d3d;
+  font-size: 16px;
+}
+
+.bold-black-high {
+  font-weight: 600;
+  color: #3d3d3d;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.personal-detail {
+  display: flex;
+}
+
+.p-col-1 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.p-col-2 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.p-col-3 {
+  flex: 1;
+  justify-content: start;
+}
+
+.material-symbols-outlined {
+  padding: 0px 5px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
